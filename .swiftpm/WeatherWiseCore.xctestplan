@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "E4CD375D-D526-4ED4-A770-DC13F1D1A29F",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:",
+          "identifier" : "WeatherWiseCore",
+          "name" : "WeatherWiseCore"
+        }
+      ]
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "WeatherWiseCoreTests",
+        "name" : "WeatherWiseCoreTests"
+      }
+    }
+  ],
+  "version" : 1
+}
